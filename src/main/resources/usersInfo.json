@@ -1,0 +1,171 @@
+[
+  {
+    "userId": 1,
+    "name": "ivan",
+    "address": "saratov",
+    "login": "ivan",
+    "password": "ivanepam1",
+    "itemsForSale": [
+      {
+        "seller": 1,
+        "itemId": 1,
+        "title": "item1",
+        "description": "item one",
+        "startPrice": 100.0,
+        "bidInc": 50,
+        "stopDate": "27-Dec-18",
+        "bestOffer": 655.0,
+        "firstBidder": 3,
+        "bidders": [
+          {
+            "id": 1,
+            "bid": 600.0
+          },
+          {
+            "id": 3,
+            "bid": 655.0
+          }
+        ]
+      },
+      {
+        "seller": 1,
+        "itemId": 2,
+        "title": "item2",
+        "description": "item two",
+        "startPrice": 3500.0,
+        "bidInc": 100,
+        "stopDate": "27-Dec-18",
+        "bestOffer": 3500.0,
+        "firstBidder": 1,
+        "bidders": []
+      },
+      {
+        "seller": 1,
+        "itemId": 6,
+        "title": "itemNew",
+        "description": "itemNew",
+        "startPrice": 500.0,
+        "bidInc": 600,
+        "stopDate": "23-Dec-18",
+        "bestOffer": 500.0,
+        "firstBidder": 1,
+        "bidders": []
+      }
+    ],
+    "itemsInBasket": [
+      {
+        "item": {
+          "seller": 1,
+          "itemId": 1,
+          "title": "item1",
+          "description": "item one",
+          "startPrice": 100.0,
+          "bidInc": 50,
+          "stopDate": "27-Dec-18",
+          "bestOffer": 100.0,
+          "firstBidder": 1,
+          "bidders": [
+            {
+              "id": 1,
+              "bid": 600.0
+            }
+          ]
+        },
+        "bid": 600.0
+      }
+    ]
+  },
+  {
+    "userId": 2,
+    "name": "maria",
+    "address": "saratov",
+    "login": "maria",
+    "password": "mariaepam2",
+    "itemsForSale": [
+      {
+        "seller": 2,
+        "itemId": 3,
+        "title": "item3",
+        "description": "item three",
+        "startPrice": 45300.0,
+        "bidInc": 500,
+        "stopDate": "27-Dec-18",
+        "bestOffer": 45300.0,
+        "firstBidder": 2,
+        "bidders": []
+      },
+      {
+        "seller": 2,
+        "itemId": 4,
+        "title": "item4",
+        "description": "item four",
+        "startPrice": 100.0,
+        "bidInc": 30,
+        "stopDate": "27-Dec-18",
+        "bestOffer": 100.0,
+        "firstBidder": 2,
+        "bidders": []
+      },
+      {
+        "seller": 2,
+        "itemId": 5,
+        "title": "item5",
+        "description": "item five",
+        "startPrice": 500.0,
+        "bidInc": 15,
+        "stopDate": "27-Dec-18",
+        "bestOffer": 500.0,
+        "firstBidder": 2,
+        "bidders": []
+      }
+    ],
+    "itemsInBasket": []
+  },
+  {
+    "userId": 3,
+    "name": "Erlx",
+    "address": "qwe",
+    "login": "ermolaxe",
+    "password": "Erm0laxe",
+    "itemsForSale": [
+      {
+        "seller": 3,
+        "itemId": 6,
+        "title": "lida",
+        "description": "",
+        "startPrice": 750.0,
+        "bidInc": 100,
+        "stopDate": "21-Dec-18",
+        "bestOffer": 750.0,
+        "firstBidder": 3,
+        "bidders": []
+      }
+    ],
+    "itemsInBasket": [
+      {
+        "item": {
+          "seller": 1,
+          "itemId": 1,
+          "title": "item1",
+          "description": "item one",
+          "startPrice": 100.0,
+          "bidInc": 50,
+          "stopDate": "27-Dec-18",
+          "bestOffer": 655.0,
+          "firstBidder": 3,
+          "bidders": [
+            {
+              "id": 1,
+              "bid": 600.0
+            },
+            {
+              "id": 3,
+              "bid": 655.0
+            }
+          ]
+        },
+        "bid": 655.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "userId": "1",
+    "name": "ivan",
+    "address": "saratov",
+    "login": "ivan",
+    "password": "ivanepam1",
+    "itemsForSale": [
+      {
+        "itemId": "1",
+        "title": "item1",
+        "description": "item one",
+        "startPrice": "100",
+        "bidInc": "50",
+        "stopDate": "29-Dec-18",
+        "bestOffer": "100",
+        "firstBidder": "1",
+        "seller": "1",
+        "bidders": [
+          {
+            "id": "1",
+            "bid": "600"
+          }
+        ]
+      },
+      {
+        "itemId": "2",
+        "title": "item2",
+        "description": "item two",
+        "startPrice": "3500",
+        "bidInc": "100",
+        "stopDate": "29-Dec-18",
+        "bestOffer": "3500",
+        "firstBidder": "1",
+        "seller": "1",
+        "bidders": [
+        ]
+      }
+    ],
+    "itemsInBasket": [
+      {
+        "item":
+        {
+          "itemId": "1",
+          "title": "item1",
+          "description": "item one",
+          "startPrice": "100",
+          "bidInc": "50",
+          "stopDate": "29-Dec-18",
+          "bestOffer": "100",
+          "firstBidder": "1",
+          "seller": "1",
+          "bidders": [
+            {
+              "id": "1",
+              "bid": "600"
+            }
+          ]
+        },
+        "bid": "600"
+      }
+    ]
+  },
+  {
+    "userId": "2",
+    "name": "maria",
+    "address": "saratov",
+    "login": "maria",
+    "password": "mariaepam2",
+    "itemsForSale": [
+      {
+        "itemId": "3",
+        "title": "item3",
+        "description": "item three",
+        "startPrice": "45300",
+        "bidInc": "500",
+        "stopDate": "29-Dec-18",
+        "bestOffer": "45300",
+        "firstBidder": "2",
+        "seller": "2",
+        "bidders": [
+        ]
+      },
+      {
+        "itemId": "4",
+        "title": "item4",
+        "description": "item four",
+        "startPrice": "100",
+        "bidInc": "30",
+        "stopDate": "29-Dec-18",
+        "bestOffer": "100",
+        "firstBidder": "2",
+        "seller": "2",
+        "bidders": [
+        ]
+      },
+      {
+        "itemId": "5",
+        "title": "item5",
+        "description": "item five",
+        "startPrice": "500",
+        "bidInc": "15",
+        "stopDate": "29-Dec-18",
+        "bestOffer": "500",
+        "firstBidder": "2",
+        "seller": "2",
+        "bidders": [
+        ]
+      }
+    ],
+    "itemsInBasket": [
+    ]
+  }
+]
